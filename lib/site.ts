@@ -3,7 +3,7 @@ export const site = {
   name: "TinyChefApp",
   domain: "tinychefapp.com",
   url: "https://tinychefapp.com",
-  tagline: "Tagline coming soon.", // TODO: replace with real tagline
+  tagline: "Tagline DEFINITELY coming soon again.", // TODO: replace with real tagline
   description: "TinyChefApp — learn more and download the app for iOS and Android.",
   contactEmail: "support@tinychefapp.com", // TODO: confirm a real mailbox exists
   // TODO: replace with real store URLs once the app is published.
