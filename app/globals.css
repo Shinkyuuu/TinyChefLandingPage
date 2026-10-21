@@ -74,7 +74,9 @@
     html {
       scroll-behavior: auto;
     }
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
       transition-duration: 0.01ms !important;
       transition-delay: 0ms !important;
       animation-duration: 0.01ms !important;
@@ -86,12 +88,15 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     font-family: var(--font-display);
     font-weight: 400;
     text-wrap: balance;
   }
-  p, li {
+  p,
+  li {
     text-wrap: pretty;
   }
   :focus-visible {
@@ -102,5 +107,9 @@
 
 /* Shown to visitors without JavaScript so scroll reveals never hide content. */
 @media (scripting: none) {
-  .reveal { opacity: 1 !important; transform: none !important; filter: none !important; }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
 }

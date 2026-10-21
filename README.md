@@ -12,31 +12,31 @@ npm run dev          # http://localhost:3000
 
 ## Scripts
 
-| Script | What it does |
-| --- | --- |
-| `npm run dev` | Start the dev server |
-| `npm run build` / `npm start` | Production build and server |
-| `npm run lint` | ESLint |
-| `npm run typecheck` | TypeScript, strict mode |
-| `npm test` | Unit tests (Vitest and Testing Library) |
-| `npm run test:e2e` | Playwright smoke tests with axe accessibility checks. Builds and serves the site on port 3100. Run `npx playwright install chromium` once first. |
-| `npm run format` | Prettier |
+| Script                        | What it does                                                                                                                                     |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `npm run dev`                 | Start the dev server                                                                                                                             |
+| `npm run build` / `npm start` | Production build and server                                                                                                                      |
+| `npm run lint`                | ESLint                                                                                                                                           |
+| `npm run typecheck`           | TypeScript, strict mode                                                                                                                          |
+| `npm test`                    | Unit tests (Vitest and Testing Library)                                                                                                          |
+| `npm run test:e2e`            | Playwright smoke tests with axe accessibility checks. Builds and serves the site on port 3100. Run `npx playwright install chromium` once first. |
+| `npm run format`              | Prettier                                                                                                                                         |
 
 CI (`.github/workflows/ci.yml`) runs lint, typecheck, unit tests, build and the Playwright tests.
 
 ## Where to edit things
 
-| What | File |
-| --- | --- |
-| App name, domain, tagline, contact email, store links | `lib/site.ts` |
-| Store badges turn into links | set `appStoreUrl` and `playStoreUrl` in `lib/site.ts` |
-| Homepage sections | `components/sections/*.tsx`, assembled in `app/page.tsx` |
-| FAQ questions (also feeds the FAQ structured data) | `content/faq.ts` |
-| Dietary badge names and colours | `lib/diets.ts` |
-| Privacy, terms, community guidelines, support, delete account | `content/legal/*.md` |
-| Colours, theme tokens, fonts | `app/globals.css`, `app/layout.tsx` |
-| Phone screenshots | add images to `public/screens/` and pass `src` to `DeviceFrame` |
-| Favicon and share image | `app/icon.svg`, `app/opengraph-image.tsx` (both placeholders) |
+| What                                                          | File                                                            |
+| ------------------------------------------------------------- | --------------------------------------------------------------- |
+| App name, domain, tagline, contact email, store links         | `lib/site.ts`                                                   |
+| Store badges turn into links                                  | set `appStoreUrl` and `playStoreUrl` in `lib/site.ts`           |
+| Homepage sections                                             | `components/sections/*.tsx`, assembled in `app/page.tsx`        |
+| FAQ questions (also feeds the FAQ structured data)            | `content/faq.ts`                                                |
+| Dietary badge names and colours                               | `lib/diets.ts`                                                  |
+| Privacy, terms, community guidelines, support, delete account | `content/legal/*.md`                                            |
+| Colours, theme tokens, fonts                                  | `app/globals.css`, `app/layout.tsx`                             |
+| Phone screenshots                                             | add images to `public/screens/` and pass `src` to `DeviceFrame` |
+| Favicon and share image                                       | `app/icon.svg`, `app/opengraph-image.tsx` (both placeholders)   |
 
 Legal pages are Markdown with a small front matter block (`title`, `description`, `status`, `updated`).
 Set `status: draft` to show the "waiting for legal review" notice, and remove it once the text is approved.

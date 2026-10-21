@@ -20,7 +20,17 @@ function IconBubble({ Icon }: { Icon: Icon }) {
   );
 }
 
-function Card({ Icon, title, children, className = "" }: { Icon: Icon; title: string; children: React.ReactNode; className?: string }) {
+function Card({
+  Icon,
+  title,
+  children,
+  className = "",
+}: {
+  Icon: Icon;
+  title: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
     <div className={`${card} ${className}`}>
       <IconBubble Icon={Icon} />
@@ -51,7 +61,10 @@ export function Features() {
             </div>
             <ul aria-label="Example ingredient list" className="flex flex-1 flex-col gap-2 rounded-2xl bg-bg p-2">
               {ingredients.map((item) => (
-                <li key={item} className="flex items-center gap-2 rounded-lg border border-border bg-surface px-3 py-2 text-base text-fg">
+                <li
+                  key={item}
+                  className="flex items-center gap-2 rounded-lg border border-border bg-surface px-3 py-2 text-base text-fg"
+                >
                   <DotsSixVerticalIcon size={20} className="text-secondary" aria-hidden="true" />
                   {item}
                 </li>

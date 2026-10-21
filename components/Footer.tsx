@@ -9,12 +9,24 @@ export function Footer() {
           © {new Date().getFullYear()} {site.operator}. {site.name} is a product of {site.operator}.
         </span>
         <nav aria-label="Legal" className="flex flex-wrap gap-6">
-          <Link href="/privacy" className="hover:text-fg">Privacy policy</Link>
-          <Link href="/terms" className="hover:text-fg">Terms of service</Link>
-          <Link href="/community-guidelines" className="hover:text-fg">Community guidelines</Link>
-          <Link href="/support" className="hover:text-fg">Support</Link>
-          <Link href="/delete-account" className="hover:text-fg">Delete account</Link>
-          <a href={`mailto:${site.contactEmail}`} className="hover:text-fg">Contact</a>
+          <Link href="/privacy" className="hover:text-fg">
+            Privacy policy
+          </Link>
+          <Link href="/terms" className="hover:text-fg">
+            Terms of service
+          </Link>
+          <Link href="/community-guidelines" className="hover:text-fg">
+            Community guidelines
+          </Link>
+          <Link href="/support" className="hover:text-fg">
+            Support
+          </Link>
+          <Link href="/delete-account" className="hover:text-fg">
+            Delete account
+          </Link>
+          <a href={`mailto:${site.contactEmail}`} className="hover:text-fg">
+            Contact
+          </a>
         </nav>
       </div>
     </footer>
