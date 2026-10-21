@@ -10,6 +10,7 @@ const links = [
   { href: "/#features", label: "Features" },
   { href: "/#how-it-works", label: "How it works" },
   { href: "/#faq", label: "FAQ" },
+  { href: "/support", label: "Support" },
 ];
 
 const ease = "ease-[cubic-bezier(0.32,0.72,0,1)]";
@@ -79,9 +80,10 @@ export function Nav() {
             <Link
               href={link.href}
               onClick={() => setOpen(false)}
-              className={`block font-display text-5xl text-fg transition-all duration-700 ${ease} hover:text-accent ${
-                staggers[i]
-              } ${open ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"}`}
+              aria-current={pathname === link.href ? "page" : undefined}
+              className={`block font-display text-5xl transition-all duration-700 ${ease} hover:text-accent ${
+                pathname === link.href ? "text-accent" : "text-fg"
+              } ${staggers[i]} ${open ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"}`}
             >
               {link.label}
             </Link>

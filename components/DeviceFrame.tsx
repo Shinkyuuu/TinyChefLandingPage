@@ -10,7 +10,7 @@ type Props = {
 // Outer radius 32px with 8px of bezel gives the screen a 24px radius (outer minus gap).
 export function DeviceFrame({ src, alt, className = "" }: Props) {
   return (
-    <div className={`relative w-full max-w-72 rounded-4xl border border-border bg-fg p-2 ${className}`}>
+    <div className={`relative w-64 shrink-0 rounded-4xl sm:w-72 border border-border bg-fg p-2 ${className}`}>
       <div className="relative aspect-9/19 overflow-hidden rounded-3xl bg-bg">
         {src ? (
           <Image src={src} alt={alt} fill sizes="288px" className="object-cover" priority />

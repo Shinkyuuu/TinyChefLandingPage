@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FlagIcon, ProhibitIcon, ShieldCheckIcon, TrashIcon } from "@phosphor-icons/react/dist/ssr";
 import { Reveal } from "@/components/Reveal";
 
@@ -48,6 +49,14 @@ export function Safety() {
           </li>
         ))}
       </ul>
+      <div className="mt-8 flex flex-wrap gap-6 text-base">
+        <Link href="/community-guidelines" className="text-accent underline underline-offset-4 hover:text-fg">
+          Read the community guidelines
+        </Link>
+        <Link href="/support" className="text-accent underline underline-offset-4 hover:text-fg">
+          Get support
+        </Link>
+      </div>
     </section>
   );
 }
