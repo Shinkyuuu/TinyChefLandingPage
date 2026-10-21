@@ -1,13 +1,15 @@
 // Central place for site-wide constants. Replace placeholders as they become available.
 export const site = {
-  name: "TinyChefApp",
-  domain: "tinychefapp.com",
-  url: "https://tinychefapp.com",
-  tagline: "Tagline DEFINITELY coming soon again.", // TODO: replace with real tagline
-  description: "TinyChefApp — learn more and download the app for iOS and Android.",
-  contactEmail: "support@tinychefapp.com", // TODO: confirm a real mailbox exists
+  name: "TinyChef",
+  domain: "startup-recipes.com",
+  url: "https://startup-recipes.com",
+  operator: "SiCo Labs",
+  tagline: "Recipes from cooks you follow, without the ads.",
+  description:
+    "Publish recipes, import them from a link or photo, tag them with dietary badges and save them into collections. TinyChef is free to use, with no ads.",
+  contactEmail: "sico.labs.admin@gmail.com",
   // TODO: replace with real store URLs once the app is published.
-  // While null, the buttons render as disabled "Coming soon" placeholders.
+  // While null, the badges render as disabled "Coming soon" placeholders.
   appStoreUrl: null as string | null,
   playStoreUrl: null as string | null,
   lastUpdated: "TODO: set date",
