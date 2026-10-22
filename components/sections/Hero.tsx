@@ -10,7 +10,7 @@ export function Hero() {
         <Reveal>
           <h1 className="max-w-170 text-5xl text-fg lg:text-6xl">
             Recipes from cooks you follow,
-            <br className="hidden sm:block" /> without the ads.
+            <br className="hidden sm:block" /> saved in one place.
           </h1>
         </Reveal>
         <Reveal delay={100}>
@@ -28,7 +28,7 @@ export function Hero() {
         <Reveal delay={300}>
           <p className="mt-6 flex items-center gap-2 text-sm text-muted">
             <CheckCircleIcon size={20} weight="fill" className="text-accent" aria-hidden="true" />
-            Free to download and use. No ads.
+            Free to download and use.
           </p>
         </Reveal>
       </div>

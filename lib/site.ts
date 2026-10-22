@@ -4,9 +4,9 @@ export const site = {
   domain: "startup-recipes.com",
   url: "https://startup-recipes.com",
   operator: "SiCo Labs",
-  tagline: "Recipes from cooks you follow, without the ads.",
+  tagline: "Recipes from cooks you follow, saved in one place.",
   description:
-    "Publish recipes, import them from a link or photo, tag them with dietary badges and save them into collections. TinyChef is free to use, with no ads.",
+    "Publish recipes, import them from a link or photo, tag them with dietary badges and save them into collections. TinyChef is free to download and use.",
   contactEmail: "sico.labs.admin@gmail.com",
   // TODO: replace with real store URLs once the app is published.
   // While null, the badges render as disabled "Coming soon" placeholders.

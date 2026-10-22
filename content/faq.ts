@@ -3,7 +3,7 @@
 export const faq = [
   {
     q: "Is TinyChef free?",
-    a: "TinyChef is free to use and has no ads. Optional paid subscriptions with extra features are planned, and we will explain what they include before they launch.",
+    a: "TinyChef is free to use and includes ads. Optional paid subscriptions with extra features are planned, and we will explain what they include before they launch.",
   },
   {
     q: "Which devices does it run on?",
