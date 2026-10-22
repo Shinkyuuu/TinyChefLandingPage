@@ -20,8 +20,12 @@ You can delete your TinyChef account yourself, at any time.
 
 ## What is kept
 
-[CONFIRM: what is retained after deletion, such as backups or records we must keep by law, and for how long. This must match the final privacy policy.] Read the [privacy policy](/privacy) for details.
+Your data is removed from our live systems right away. Some things can remain for a limited time, as described in our [privacy policy](/privacy):
+
+- Encrypted backups, for up to 35 days.
+- Records of reported or removed content and enforcement decisions, for up to 2 years after a case is closed, and longer where needed for a dispute or the law.
+- Server logs kept for security, debugging, fraud prevention and legal purposes.
 
 ## Cannot use the app?
 
-Email [sico.labs.admin@gmail.com](mailto:sico.labs.admin@gmail.com) from the address linked to your account with the subject "Delete my account". We will confirm the request and process it. [CONFIRM: the time we take to process requests.]
+Email [sico.labs.admin@gmail.com](mailto:sico.labs.admin@gmail.com) from the address linked to your account with the subject "Delete my account". We will respond within 45 days, and tell you if we need more time.

@@ -7,7 +7,7 @@ const steps = [
   },
   {
     title: "Save what you want to cook",
-    body: "Like a recipe, which stays private and is never shown to the creator, or save it into a collection.",
+    body: "Like a recipe or save it into a collection. Dislikes stay private and are never shown to the creator.",
   },
   {
     title: "Share your own",

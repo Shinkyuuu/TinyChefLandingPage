@@ -15,7 +15,7 @@ export const faq = [
   },
   {
     q: "Who can see what I like?",
-    a: "Nobody. Likes are private and are never shown to the creator of a recipe.",
+    a: "By default, other people can see your likes and saves. You can turn this off in Settings → Privacy. Dislikes are always private and are never shown to the creator of a recipe.",
   },
   {
     q: "Can I keep a recipe private?",
