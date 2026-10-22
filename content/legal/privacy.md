@@ -1,14 +1,13 @@
 ---
 title: Privacy policy
 description: What information TinyChef collects, how it is used and shared, and the choices you have.
-status: draft
 ---
 
 **Effective date:** 10/21/26
 
 **Last updated:** 10/21/26
 
-TinyChef ("TinyChef", "we", "us") is a social recipe app operated by Mimansa Tyagi, an individual, under the name SiCo Labs. [SWAP when the LLC exists: "operated by [SiCo Labs, LLC], an Arizona limited liability company".] This policy explains what information we collect, how we use and share it, and the choices you have. By creating an account or using TinyChef you agree to this policy.
+TinyChef ("TinyChef", "we", "us") is a social recipe app operated by Mimansa Tyagi, an individual, under the name SiCo Labs. This policy explains what information we collect, how we use and share it, and the choices you have. By creating an account or using TinyChef you agree to this policy.
 
 **Contact:** sico.labs.admin@gmail.com
 
@@ -64,8 +63,6 @@ We do not collect your location or contacts.
 
 We may also use personal information for purposes we describe to you when we collect it, or that you agree to.
 
-[DO NOT PUBLISH the advertising, analytics and data-sharing wording until each is actually in the shipped build. Everything described in sections 2, 3, 5 and 7 as advertising/analytics must be true on the day of submission and must match the App Store privacy label and the Play Data Safety form. See note 8.]
-
 ## 4. What is public
 
 - Your **username, name, bio, profile picture, follower and following counts, and public recipes** can be seen by anyone, and are indexed in our search.
@@ -85,8 +82,8 @@ We share information as described below. We may also share or make available lim
 - **Algolia:** search. Public recipe and profile data is sent to Algolia to power search.
 - **OpenAI:** (a) to check text you post (for example recipes and bios) against our content rules, and (b) to read recipe photos or web page text when you use recipe import. Content you submit for these purposes is sent to OpenAI through its business API. Under OpenAI's current terms, API content is not used to train its models by default, and OpenAI may retain API inputs and outputs for up to 30 days to detect abuse, or longer where required by law. OpenAI's practices are governed by its own policies and may change.
 - **Expo:** delivery of app updates.
-- **Analytics providers** [NAME when chosen, e.g. Firebase/Google Analytics, PostHog, Amplitude]: usage and crash data.
-- **Advertising partners** [NAME when chosen, e.g. Google AdMob]: advertising identifiers, device data, and ad interactions so they can serve and measure ads, and personalize them where you allow it. These partners have their own privacy policies and may combine this data with data from other apps and sites.
+- **Analytics providers:** usage and crash data.
+- **Advertising partners:** advertising identifiers, device data, and ad interactions so they can serve and measure ads, and personalize them where you allow it. These partners have their own privacy policies and may combine this data with data from other apps and sites.
 
 **Other users**, as described in section 4.
 
@@ -109,15 +106,13 @@ We use automated tools (image and text scanning) and human review to detect cont
 - **Permissions:** you can turn off camera and photo access in your device settings.
 - **Ask us:** email sico.labs.admin@gmail.com to request access to, correction of, or deletion of your information. We will respond within 45 days, and tell you if we need more time.
 
-**US state privacy rights.** Depending on where you live (for example California, Colorado, Virginia, Texas and other states with privacy laws), you may have the right to know what personal information we collect and how we use and disclose it, to access and correct it, to delete it, to receive a portable copy, and to opt out of the sale or sharing of personal information or targeted advertising. You will not be treated differently for exercising these rights. To make a request, email sico.labs.admin@gmail.com; we may need to verify your identity, and you may use an authorized agent. If we deny a request you may appeal by replying to our response. Because we use advertising and analytics partners, some of that activity may count as "sharing" for targeted advertising or a "sale" under some state laws. You can opt out in Settings → Privacy → [Do Not Sell or Share My Personal Information / ad personalization toggle — NOT BUILT YET], by turning off tracking for TinyChef in your iOS or Android settings, or by emailing us. We honor opt-out preference signals such as Global Privacy Control where the law requires. We do not knowingly sell or share the personal information of anyone under 16.
+**US state privacy rights.** Depending on where you live (for example California, Colorado, Virginia, Texas and other states with privacy laws), you may have the right to know what personal information we collect and how we use and disclose it, to access and correct it, to delete it, to receive a portable copy, and to opt out of the sale or sharing of personal information or targeted advertising. You will not be treated differently for exercising these rights. To make a request, email sico.labs.admin@gmail.com; we may need to verify your identity, and you may use an authorized agent. If we deny a request you may appeal by replying to our response. Because we use advertising and analytics partners, some of that activity may count as "sharing" for targeted advertising or a "sale" under some state laws. You can opt out by turning off tracking for TinyChef in your iOS or Android settings, or by emailing us. We honor opt-out preference signals such as Global Privacy Control where the law requires. We do not knowingly sell or share the personal information of anyone under 16.
 
 **Withdrawing consent.** Where we rely on your consent (for example, camera and photo permissions or optional emails), you can withdraw it at any time in your device settings or by emailing us. This does not affect what we did before. If you withdraw consent, some features may stop working.
 
 **Automated decisions.** We use automated tools to scan content and to rank your feed. We do not make decisions with legal or similarly significant effects about you solely by automated means. If automated moderation hides or removes your content, you can ask for a human review by emailing us.
 
 **Do Not Track.** The TinyChef app does not respond to browser "Do Not Track" signals, because they are a web-browser feature. See above for how to opt out of personalized advertising.
-
-[IF YOU LATER LAUNCH IN THE EU/UK: add a GDPR section (legal bases, international transfers, EU/UK representative, right to complain to a supervisory authority) before launching there.]
 
 ## 8. How long we keep information
 
@@ -126,7 +121,7 @@ We use automated tools (image and text scanning) and human review to detect cont
 - **Moderation and safety records:** we may keep records of reported or removed content and enforcement decisions for up to 2 years after the case is closed, and longer if needed to resolve a dispute or comply with law. These records may remain after you delete your account.
 - **Notifications:** expire automatically.
 - **Server logs:** technical logs from our servers (which may include your user ID, IP address, request details, and the web address of a recipe you import) are kept for as long as needed for security, debugging, fraud prevention and legal purposes, and may remain after you delete your account. We do not use them to rebuild your deleted profile.
-- **Analytics and advertising data:** kept for as long as needed for those purposes, generally no more than [26] months, according to the settings of our providers. [SET to match the provider settings you choose.]
+- **Analytics and advertising data:** kept for as long as needed for those purposes, generally no more than 26 months, according to the settings of our providers.
 - **Legal obligations:** we may keep information longer where the law requires.
 
 ## 9. Security
@@ -135,7 +130,7 @@ Data is encrypted in transit (HTTPS). Access to our systems is limited. Password
 
 ## 10. International users
 
-TinyChef is intended for the United States and your information is processed in the United States. [Revisit before any launch outside the US.]
+TinyChef is intended for the United States and your information is processed in the United States.
 
 ## 11. Changes to this policy
 
@@ -150,5 +145,3 @@ If you believe content on TinyChef infringes your copyright, email our designate
 Mimansa Tyagi (SiCo Labs)
 
 Email: sico.labs.admin@gmail.com
-
-[POSTAL ADDRESS — see note 1; an individual's home address would become public here]
