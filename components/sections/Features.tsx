@@ -46,7 +46,7 @@ export function Features() {
   return (
     <section id="features" className="mx-auto max-w-6xl scroll-mt-24 px-4 py-24">
       <Reveal>
-        <h2 className="max-w-170 text-4xl text-fg md:text-5xl">Everything you need to cook, share and save</h2>
+        <h2 className="max-w-170 text-4xl text-fg md:text-5xl">Everything you need to cook, save, and share</h2>
       </Reveal>
       <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <Reveal className="md:col-span-2">
