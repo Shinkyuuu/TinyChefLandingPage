@@ -4,7 +4,7 @@ export const site = {
   domain: "startup-recipes.com",
   url: "https://startup-recipes.com",
   operator: "SiCo Labs",
-  tagline: "Recipes from cooks you follow, saved in one place.",
+  tagline: "Your kitchen, your people, your recipes.",
   description:
     "Publish recipes, import them from a link or photo, tag them with dietary badges and save them into collections. TinyChef is free to download and use.",
   contactEmail: "sico.labs.admin@gmail.com",

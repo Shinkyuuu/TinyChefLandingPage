@@ -9,8 +9,8 @@ export function Hero() {
       <div>
         <Reveal>
           <h1 className="max-w-170 text-5xl text-fg lg:text-6xl">
-            Recipes from cooks you follow,
-            <br className="hidden sm:block" /> saved in one place.
+            Your kitchen, your people,
+            <br className="hidden sm:block" /> your recipes.
           </h1>
         </Reveal>
         <Reveal delay={100}>
